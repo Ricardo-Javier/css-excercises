@@ -1,4 +1,6 @@
-/** Insert your code here **/
+ul li {
+	color: red !important;
+}
 
 /*********** READ ONLY BLOCK ******
 You CAN NOT UPDATE anything from here on,
@@ -12,4 +14,8 @@ body {
 ul li,
 ol li {
 	color: green;
+}
+
+tr:nth-child(odd) {
+	background-color: yellow;
 }
